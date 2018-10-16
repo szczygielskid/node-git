@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM node:boron-slim
 
 RUN apt-get update && apt-get install git
 
